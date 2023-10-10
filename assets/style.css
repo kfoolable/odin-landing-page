@@ -1,18 +1,152 @@
-body {
-  font-family: Roboto, sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
-  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-h1 {
-  margin: 0;
-}
-
-.header {
+.nav,
+.first-section,
+.footer {
   background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.hero-text {
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.links a,
+.secondary-text {
+  font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
 }
 
 .first-section {
-  background-color: #1f2937;
-  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 140px;
+  flex-wrap: wrap;
+}
+
+.hc-title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.left-content {
+  width: 450px;
+}
+
+.content-btn {
+  border: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px 30px;
+  margin-top: 10px;
+}
+
+.second-section {
+  padding: 50px;
+}
+
+.second-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+.cards-con {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+  align-items: center;
+}
+
+.cards p {
+  width: 150px;
+}
+
+.box {
+  border: 4px solid #3882f6;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.third-section {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 100px 300px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  color: #1f2937;
+}
+
+.quote-by {
+  text-align: right;
+}
+
+.blue-container {
+  display: flex;
+  margin: 100px 300px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  padding: 30px 100px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.call {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 3px 25px;
+  font-weight: 500;
+}
+
+.footer {
+  padding: 40px;
+  text-align: center;
 }
